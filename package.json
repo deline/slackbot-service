@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./lib/bin/www.js"
+    "start": "DEBUG=slackbot-service:* node ./lib/bin/www.js"
   },
   "dependencies": {
     "debug": "~2.6.9",
