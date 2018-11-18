@@ -6,7 +6,10 @@
     "start": "DEBUG=slackbot-service:* node ./lib/bin/www.js"
   },
   "dependencies": {
+    "@slack/client": "^4.8.0",
+    "@slack/interactive-messages": "^1.0.2",
     "debug": "~2.6.9",
+    "dotenv": "^6.1.0",
     "express": "~4.16.0",
     "morgan": "~1.9.0"
   },
